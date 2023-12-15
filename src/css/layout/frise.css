@@ -1,8 +1,28 @@
 .Frise__image {
     width: 100px; /* Largeur de l'image */
     height: 100px; /* Hauteur de l'image */
-    margin-right: auto; /* Ajoute de l'espace à droite de l'image */
+    
 }
-.Frise__name{
 
+.Frise__chronologique{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.Frise__name {
+    background-color: gray; /* Couleur de fond du rectangle */
+    width: 200px; /* Largeur du rectangle */
+    height: 50px; /* Hauteur du rectangle */
+    display: inline-block; /* Rend l'élément comme un bloc, mais seulement aussi large que son contenu */
+}
+
+.Frise__p {
+    border: 2px solid black; /* Bordure noire autour de l'élément */
+    height: 20px; /* Hauteur de l'élément */
+    display: inline-block; /* Rend l'élément comme un bloc, mais seulement aussi large que son contenu */
 }
