@@ -1,0 +1,37 @@
+.propos__texte{
+    font-size: var(--corps-du-texte);
+    font-family: var(--font-texte);
+}
+
+.Contact__titre {
+    font-size:  22px;
+    font-family: var(--font-titre);
+}
+
+.Section__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 80px;
+    background-color: var(--couleur-dominante);
+}
+
+.label{
+    font-size: var(--corps-du-texte);
+    font-family: var(--font-texte);
+    color: var(--blanc);
+    display: block; /* Force le label à occuper toute la largeur de son conteneur */
+}
+
+.input{
+    background-color: var(--couleur-tonique);
+}
+
+.form__button {
+    display: block; /* Rend le bouton comme un bloc */
+    margin-left: auto; /* Centrer horizontalement */
+    margin-right: auto; /* Centrer horizontalement */
+}
