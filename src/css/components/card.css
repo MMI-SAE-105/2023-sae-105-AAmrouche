@@ -2,9 +2,9 @@
     background-color: var(--couleur-dominante);
     display: center;
     width: 300px;
-    height: px;
     margin-left: auto; /* Centrer horizontalement */
-    margin-right: auto; /* Centrer horizontalement */
+    margin-right: auto;
+    margin-bottom:auto; /* Centrer horizontalement */
 }
 .article__img {
     display: block; /* Rend l'image en bloc */
@@ -16,8 +16,7 @@
 
 .Article__bouton {
     display: block; /* Rend le lien comme un bloc */
-    width: 200px; /* Largeur du bouton */
-    height: 30px; /* Hauteur du bouton */
+    width: auto; /* Largeur du bouton */
     background-color: var(--couleur-tonique);
     
     border: none; /* Pas de bordure */
@@ -31,5 +30,19 @@
     font-family: var(--font-titre);
     margin-bottom: 140px; /* Réduit la marge inférieure à 40px */
     
+}
+
+.article__titre {
+    font-family: var(--font-titre);
+    font-size: var(--titre-2);
+    text-align: center;
+    color: var(--blanc);
+    margin-bottom: 20px;
+    margin-top: 10px
+}
+
+.div_bouton {
+
+    Margin-bottom : 40px;
 }
 
