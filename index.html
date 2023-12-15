@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage </title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+</head>
+    
+
+
+<body>
+
+
+    <header class="header">
+
+    <a class="header__title" href="/1-homepage.html">
+        <h1>NiemeyerLegacy</h1>
+     </a>
+
+     <button aria-controls="mainNav"  
+     @click="menuIsOpen = ! menuIsOpen"
+     class="header__menuBtn"  aria-controls="mainNav">
+         <img src="public/icon/menu.svg"   alt="Menu hamburger">
+     </button>
+
+     <nav  id="mainNav" 
+     x-show="menuIsOpen" 
+     x-transition.duration.800ms
+      class="header__nav" id="mainNav">
+            <ul>
+                <li class="menu__item" ><a class="menu__link" href="/2-Oscar.html">Oscar Niemeyer</a></li>
+                <li class="menu__item" ><a class="menu__link" href="/3-palais-planalto.html">Palais de Planalto</a></li>
+                <li class="menu__item"><a class="menu__link" href="/4-cathedrale-brasilia.html">Cathédrale de Brasília</a></li>
+                <li class="menu__item"><a class="menu__link" href="/5-musee-niteroi.html">Musée d'Art Contemporain de Nitéroi</a></li>
+                <li class="menu__item"><a class="menu__link" href="/6-palais-Itamaraty.html">Palais Itamaraty</a></li>
+                <li class="menu__item"><a class="menu__link" href="/7-Siege-communiste-francais.html">Siège du Parti Communiste </a></li>
+                <li class="menu__item"><a class="menu__link" href="/8-Palais-Izmir.html">Palais des Congrès d'Izmir</a></li>
+                <li class="menu__item"><a class="menu__link" href="/9-Centre culturel international.html">Centre culturel international</a></li>
+                <li class="menu__item"><a class="menu__link" href="/10-siege-nation-unies.html">Siège des Nations Unies</a></li>
+                <li class="menu__item"><a class="menu__link" href="/11-a propos.html">À propos</a></li>
+            </ul>
+            
+     </nav>
+     
+
+
+    </header>
+
+<main> 
+    <div class="Main__contenu">   
+        <h1 class="Main__titre">NiemeyerLegacy : L'Éclat de l'Architecture Brésilienne à Paris</h1>
+        <img class="Main__image" src="public/img/Oscar_home_page.webp alt="Oscar Niemeyer">
+    </div>
+
+    <section class="section__texte">
+     <img  >
+     <p class="section__p" >Succombez à l'aura de l'architecte emblématique Oscar Niemeyer lors de l'exposition exclusive.</p>
+     <p class="section__p" >NiemeyerLegacy, qui illuminera la Fondation Cartier du 13 avril au 23 juin 2024. 
+     </p>
+     <p class="section__p" >Nichée au cœur de Paris au 261 Bd Raspail, 75014, cette exposition captivante célèbre le génie créatif de Niemeyer et offre une expérience immersive au croisement de l'art et de l'architecture.</p>
+     <p class="section__p" >Laissez-vous transporter dans l'univers de courbes audacieuses, d'innovation sans limite et d'une esthétique avant-gardiste qui a captivé le monde. </p>
+     <p class="section__p">Ne manquez pas cette rencontre avec l'excellence architecturale brésilienne, une expérience qui laissera une empreinte indélébile dans vos souvenirs culturels.</p>
+    </section>
+
+    <div class="accordeon" x-data="{
+        Button:0,
+        }">
+        <section class="section__info">
+        <h2 class="section_titre">Informations Pratiques</h2>
+
+        <button class="button" @click=" Button = 1 ">  
+            Horraire d'ouverture
+        </button>
+
+            <div class="texte__info">
+            <p x-show="Button === 1"
+            x-transition.scale.origin.left class="info__p">Tous les jours de 11h à 20h, sauf le lundi. Profitez d'une nocturne le mardi, prolongée jusqu'à 22h. </p>
+            <p x-show="Button === 1"
+            x-transition.scale.origin.left class="info__p">La fermeture des salles débute à 19h45 (21h45 les mardis), offrant une expérience immersive jusqu'au dernier moment.</p>
+            </div>
+        
+        <button @click=" Button = 2 " class="button">
+            Tarif
+        </button>
+
+        <div class="texte__tarif"
+        <p x-show="Button === 2"
+        x-transition.scale.origin.left class="tarif__p"> Plein tarif : 11€
+            Tarif réduit : 7,50€
+            Réduction 13 - 25 ans : 5€
+            Fondation Cartier Pass : 18€ - 50€
+            Moins de 13 ans, Laissez-passer annuel, carte Icom, carte de presse, carte d'invalidité, Fondation Cartier Pass, Étudiants : Gratuit</p>
+        </div>
+            <a href="#"  class="button_billeterie">
+                Billeterie
+            </a>
+        </section>
+
+    </div>
+    
+        <article class="article">
+            
+            <div class="article__titre">
+                <h3>Oscar Niemeyer</h3>
+            </div>
+            <div class="Article_RGauche">
+                
+            </div>
+            
+            <div >
+                <img class="article__img" src="public/img/oscar_card_homepage.webp" alt="Oscar Niemeyer">
+            </div>
+            
+            <div class="">   
+             <a class="Article__bouton" href="/2-Oscar.html">
+                    <h4>En savoir plus</h4>
+             </a>
+            </div>
+            <div class="Article_RDroit">
+                
+            </div>
+            
+        </article>
+
+        </main>
+
+        <footer class="footer">
+
+            <nav class="footer_menu">
+
+                    <li class="Footer_titre">
+                        <a class="footer_titre_un" href="./1-homepage.html">NiemeyerLegacy</a>
+                    </li>
+                    <ul class="Footer_lien">
+                    
+                    <li class="footer__nom">
+                        <a  class="Footer__nommage" href="./2-Oscar.html">Oscar Niemeyer</a>
+                    </li>
+                    <li class="footer__nom">
+                        <a class="Footer__nommage" href="./11-a propos.html">A propos</a>
+                    </li>
+                    <li class="footer__nom"> 
+                        <a class="Footer__nommage" href="#">Billeterie</a>
+                    </li>
+                </ul>
+        
+                <ul class="Footer_list">    
+                    <li><a href="#"> <img src="public/icon/instagram.svg" alt="Logo d'instagram" ></a></li>
+                    <li><a href="#"> <img src="public/icon/Youtube.svg " alt="Logo de Youtube" ></a></li>
+                    <li><a href="#"> <img src="public/icon/MMI_-_logo_quadri_-white 1.svg" alt="Logo de mmi" ></a></li>
+                </ul>
+                <ul class="Footer_mentions">
+                    <li class="footer_mention_titre"><a href="#">Mentions légales</a></li>
+                    <li>réalisé dans le cadre de la formation MMI</li>
+               
+        
+            </nav>
+        
+        </footer>
+    </body>
+</html>
