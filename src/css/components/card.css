@@ -1,0 +1,35 @@
+.article {
+    background-color: var(--couleur-dominante);
+    display: center;
+    width: 300px;
+    height: px;
+    margin-left: auto; /* Centrer horizontalement */
+    margin-right: auto; /* Centrer horizontalement */
+}
+.article__img {
+    display: block; /* Rend l'image en bloc */
+    margin-left: auto; /* Centrer horizontalement */
+    margin-right: auto; /* Centrer horizontalement */
+    margin-bottom:30px;
+
+}
+
+.Article__bouton {
+    display: block; /* Rend le lien comme un bloc */
+    width: 200px; /* Largeur du bouton */
+    height: 30px; /* Hauteur du bouton */
+    background-color: var(--couleur-tonique);
+    
+    border: none; /* Pas de bordure */
+ /* Coins légèrement arrondis */
+    color: var(--couleur-dominante);/* Couleur du texte du bouton */
+    text-decoration: none; /* Pas de soulignement du texte */
+    text-align: center; /* Centrer le texte horizontalement */
+    line-height: 50px; /* Centrer le texte verticalement */
+    margin-left: auto; /* Centrer horizontalement */
+    margin-right: auto;
+    font-family: var(--font-titre);
+    margin-bottom: 140px; /* Réduit la marge inférieure à 40px */
+    
+}
+

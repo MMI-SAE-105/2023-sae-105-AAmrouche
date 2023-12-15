@@ -38,9 +38,10 @@ background: var(--couleur-dominante) url('../../../public/icon/Rond\ Gauche.svg'
 
 .Footer_list {
     display: flex;
-    justify-content: flex;
+    justify-content: center;
     text-decoration: none;
     list-style-type: none;
+    gap: 35px;
 }
 .footer__social {
     justify-content: space-between;
@@ -64,6 +65,7 @@ background: var(--couleur-dominante) url('../../../public/icon/Rond\ Gauche.svg'
 
 .Footer_mentions {
     text-decoration: none;
+    display: center;
     font-size: var(titre-2);
     font-family: var(--font-titre);
     color: var(--blanc);
@@ -75,6 +77,7 @@ background: var(--couleur-dominante) url('../../../public/icon/Rond\ Gauche.svg'
 .Footer_mention_titre {
 
     font-family: var(--font-titre);
+    display: center;
     color: var(--blanc);
     list-style-type: none;
     justify-content: center;
