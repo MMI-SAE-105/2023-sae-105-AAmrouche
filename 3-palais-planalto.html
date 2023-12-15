@@ -11,43 +11,35 @@
 
 <body>
     <header class="header">
-
-        
-        
     
-     
-     <a class="header__title" href="/1-homepage.html">
-        <h1>NiemeyerLegacy</h1>
-     </a>
-
-     <button aria-controls="mainNav"  
-     @click="menuIsOpen = ! menuIsOpen"
-     class="header__menuBtn"  aria-controls="mainNav">
-         <img src="public/icon/menu.svg"   alt="Menu hamburger">
-     </button>
-
-     <nav  id="mainNav" 
-     x-show="menuIsOpen" 
-     x-transition.duration.800ms
-      class="header__nav" id="mainNav">
-            <ul>
-                <li class="menu__item" ><a class="menu__link" href="/2-Oscar.html">Oscar Niemeyer</a></li>
-                <li class="menu__item" ><a class="menu__link" href="/3-palais-planalto.html">Palais de Planalto</a></li>
-                <li class="menu__item"><a class="menu__link" href="/4-cathedrale-brasilia.html">Cathédrale de Brasília</a></li>
-                <li class="menu__item"><a class="menu__link" href="/5-musee-niteroi.html">Musée d'Art Contemporain de Nitéroi</a></li>
-                <li class="menu__item"><a class="menu__link" href="/6-palais-Itamaraty.html">Palais Itamaraty</a></li>
-                <li class="menu__item"><a class="menu__link" href="/7-Siege-communiste-francais.html">Siège du Parti Communiste </a></li>
-                <li class="menu__item"><a class="menu__link" href="/8-Palais-Izmir.html">Palais des Congrès d'Izmir</a></li>
-                <li class="menu__item"><a class="menu__link" href="/9-Centre culturel international.html">Centre culturel international</a></li>
-                <li class="menu__item"><a class="menu__link" href="/10-siege-nation-unies.html">Siège des Nations Unies</a></li>
-                <li class="menu__item"><a class="menu__link" href="/11-a propos.html">À propos</a></li>
-            </ul>
-            
-     </nav>
-     
-
-
-    </header>
+        <img class="header__svggauche"src="public/icon/Rond Gauche.svg" alt="décoration rond gauche">
+        
+        <a class="header__title" href="/1-homepage.html">
+           <h1>NiemeyerLegacy</h1>
+        </a>
+   
+        <button class="header__menu" aria-controls="mainNav" >
+            <img src="public/icon/menu.svg"   alt="Menu hamburger">
+        </button>
+        <nav class="header__nav" id="mainNav">
+               <ul>
+                   <li class="menu__item" ><a class="menu__link" href="/2-Oscar.html">Oscar Niemeyer</a></li>
+                   <li class="menu__item" ><a class="menu__link" href="/3-palais-planalto.html">Palais de Planalto</a></li>
+                   <li class="menu__item"><a class="menu__link" href="/4-cathedrale-brasilia.html">Cathédrale de Brasília</a></li>
+                   <li class="menu__item"><a class="menu__link" href="/5-musee-niteroi.html">Musée d'Art Contemporain de Nitéroi</a></li>
+                   <li class="menu__item"><a class="menu__link" href="/6-palais-Itamaraty.html">Palais Itamaraty</a></li>
+                   <li class="menu__item"><a class="menu__link" href="/7-Siege-communiste-francais.html">Siège du Parti Communiste </a></li>
+                   <li class="menu__item"><a class="menu__link" href="/8-Palais-Izmir.html">Palais des Congrès d'Izmir</a></li>
+                   <li class="menu__item"><a class="menu__link" href="/9-Centre culturel international.html">Centre culturel international</a></li>
+                   <li class="menu__item"><a class="menu__link" href="/10-siege-nation-unies.html">Siège des Nations Unies</a></li>
+                   <li class="menu__item"><a class="menu__link" href="/11-a propos.html">À propos</a></li>
+               </ul>
+               <img class="header__svgdroite"src="public/icon/Rond Droite.svg" alt="décoration rond droite">
+        </nav>
+        <img class="header__svgdroite"src="public/icon/Rond Droite.svg" alt="décoration rond droite">
+   
+   
+       </header>
 
 <main>
     
@@ -56,17 +48,17 @@
     </div>
 
     <div class="Main__img">
-        <img class="Main__image"src="public/img/palais de planalto brasilia .webp" alt="Palais de Planalto">
+        <img class="Main__image" src="public/img/palais_de_planalto_brasilia.webp" alt="Palais de Planalto">
         <h3 class="Main_title">Palais de Planalto Brasília</h3>
     </div>
 
     <section class="Section__texte">
-        <img  class="section__Rdroit" src="public/icon/Rond Droite.svg" alt="décoration rond droite">
+        
         <p class="section__p">  Inauguré avec la création de la nouvelle capitale du Brésil, le Palais de Planalto est le siège du pouvoir exécutif. Sa structure élégante et ses lignes courbes incarnent la signature unique de Niemeyer.</p>
         <p class="section__p">  Le Palais de Planalto à Brasília, conçu par Oscar Niemeyer, incarne l'essence même de son génie architectural. Inauguré en 1960 en tant que siège du pouvoir exécutif brésilien, le bâtiment évoque l'élégance et la modernité caractéristiques du style de Niemeyer. </p>
         <p class="section__p">  Les courbes gracieuses de sa structure, avec ses arcs subtilement inclinés et sa façade épurée, créent une symbiose visuelle entre l'art et la fonctionnalité. Les vastes espaces intérieurs, baignés de lumière naturelle à travers des baies vitrées imposantes, reflètent la vision de Niemeyer pour un design qui transcende les limites conventionnelles. <p>Laissez-vous transporter dans l'univers de courbes audacieuses, d'innovation sans limite et d'une esthétique avant-gardiste qui a captivé le monde. </p>
         <p class="section__p">Le Palais de Planalto, par sa présence majestueuse et son esthétique distincte, demeure une icône intemporelle de l'héritage architectural de Niemeyer, rappelant son rôle essentiel dans la création de la capitale futuriste du Brésil.
-        <img class="section__Gdroit" src="public/icon/Rond Gauche.svg" alt="décoration rond gauche">
+       
      </section>
 
      <article class="article">
@@ -76,11 +68,11 @@
         </div>
 
         <div class="Article_RGauche">
-            <img src="public/icon/rond gauche card.svg" alt="rond gris">
+            
         </div>
 
         <div class="article__img">
-            <img src="public/img/Cathédrale de brasiliaPT.webp" alt="Cathédrale de Brasília">
+            <img src="public/img/Cathedrale_de_brasiliaPT.webp" alt="Cathédrale de Brasília">
         </div>
 
         <div class="Article__bouton"> 
