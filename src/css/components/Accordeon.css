@@ -1,0 +1,25 @@
+.accordeon {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.button {
+
+    background-color:var(--couleur-tonique);
+    border-radius: 4px;
+    font-family: var(--font-titre);
+    font-size: var(--button);
+}
+
+.button_billeterie {         
+    
+
+    width: 200px; /* Largeur du bouton */
+    height: 50px; /* Hauteur du bouton */
+    border: none; /* Pas de bordure */
+    border-radius: 4px; /* Coins légèrement arrondis */
+    font-family: var(--font-titre);
+    font-size: var(--button);
+}

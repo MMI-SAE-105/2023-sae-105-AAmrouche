@@ -1,7 +1,7 @@
 
 
 .footer{
-    background: var(--couleur-dominante) url('../../../public/icon/Rond\ Gauche.svg') no-repeat left center;
+    background: var(--couleur-dominante);
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -31,8 +31,9 @@
 { display: block;
 justify-content: right;
 text-decoration: none;
-
 list-style-type: none; /* Retire les points de la liste */
+background: var(--couleur-dominante) url('../../../public/icon/Rond\ Gauche.svg') no-repeat left center;
+
 }
 
 .Footer_list {
@@ -54,8 +55,9 @@ list-style-type: none; /* Retire les points de la liste */
 }
 .Footer__nommage
 {
+    
     text-decoration: none;
-    font-size: var(titre-2);
+    font-size: 18px;
     font-family: var(--font-titre);
     color: var(--blanc);
 }
@@ -70,9 +72,8 @@ list-style-type: none; /* Retire les points de la liste */
     justify-content: center;
 }
 
-.footer_mention_titre {
-    text-decoration: none;
-    font-size: var(titre-2);
+.Footer_mention_titre {
+
     font-family: var(--font-titre);
     color: var(--blanc);
     list-style-type: none;
