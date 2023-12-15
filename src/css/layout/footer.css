@@ -1,0 +1,30 @@
+
+
+.footer{
+    background: var(--couleur-dominante) url('../../../public/icon/Rond\ Gauche.svg') no-repeat left center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.Footer_lien
+{ display: block;
+justify-content: right;
+text-decoration: none;
+    
+}
+
+.Footer_list {
+    text-decoration: none;
+    margin-left: 110px;
+    
+    list-style-type: none; /* Retire les points de la liste */
+}
+
+.footer__nom {
+    text-decoration: none;
+    padding-bottom: 30px;
+    font-size: var(titre-2);
+    font-family: var(--font-titre);
+}
