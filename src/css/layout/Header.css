@@ -10,7 +10,7 @@
     top: 0;
     left: 0;
     z-index: 2;
-    background-color: var(--couleur-dominante);
+    background: var(--couleur-dominante) url('../../../public/icon/Rond\ Gauche.svg') no-repeat left center;
     margin: 0 auto; /* Centrer l'en-tête horizontalement */
     height: 160px;
 }
@@ -18,21 +18,18 @@
 .header__title {
 
     font-family: var(--font-titre);
-    font-size: var(--titre-2);
+    font-size: 12px;
     text-decoration: none;
-}
-
-.header__svggauche {
-
-    background-position: fixed;
-}
-
-.header__svgdroite {
-
-    background-position: fixed;
+    color: var(--blanc);
+    margin-left: 5px;
 }
 
 .header__menu {
-    background-color: --couleur-dominante;
+    background-color: var(--couleur-dominante);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
 }
+
+
 

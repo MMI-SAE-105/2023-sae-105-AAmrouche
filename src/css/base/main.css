@@ -4,11 +4,30 @@
   box-sizing: border-box;
 }
 
-body {
+.body {
     font-family: var(--font-texte);
     font-size: var(--corps-du-texte);
     line-height: 1.6;
     background-color: var(--blanc);
   }
 
-  
+
+
+.Main__titre {
+    margin-top: 200px;
+    font-family: var(--font-titre);
+    font-size: var(--titre-2);
+    text-align: center;
+}
+
+.section__Rdroit {
+    position:relative;
+    margin-left: 50px;
+    padding-top: 50px;
+
+
+}
+
+.section__p{
+    
+}
