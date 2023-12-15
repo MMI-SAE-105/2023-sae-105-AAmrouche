@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&family=Raleway:ital@0;1&family=Ubuntu&display=swap');
+
+@import url(base/main.css);
+@import url(base/media.css);    
+
+@import url(vendors/normalise.css);
+
+@import url(utils/variables.css);

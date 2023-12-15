@@ -1,0 +1,18 @@
+/* Text-size styles */
+--corps-du-texte: 15px;
+--bouton: 12px;
+--titre-1: 30px;
+--titre-2: 22px;
+--texte-important: 18px;
+--oeuvre: 35px;
+
+
+/* Color styles */
+--couleur-tonique: rgba(235, 200, 154, 1);
+--couleur-dominante: rgba(42, 45, 52, 1);
+--gris: rgba(126, 137, 135, 1);
+--blanc: rgba(237, 242, 244, 1);
+
+
+--font-mono: 'Ubuntu Mono', monospace;
+--fontmono: 'Raleway', sans-serif;
