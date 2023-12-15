@@ -2,7 +2,7 @@
 
 
 .header { /* L'en-tête prendra toute la largeur de l'écran */
-    max-width: 500px; /* Mais ne dépassera jamais 500px */
+    width: 100%; /* Mais ne dépassera jamais 500px */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,6 @@
     left: 0;
     z-index: 2;
     background: var(--couleur-dominante) url('../../../public/icon/Rond\ Gauche.svg') no-repeat left center;
-    margin: 0 auto; /* Centrer l'en-tête horizontalement */
     height: 160px;
 }
 
@@ -24,12 +23,37 @@
     margin-left: 5px;
 }
 
-.header__menu {
+.header__menuBtn {
     background-color: var(--couleur-dominante);
     display: flex;
     justify-content: space-between;
-    margin-left: 5px;
+    margin-left: 10px;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: column; /* Les éléments s'affichent de haut en bas */
+    position: absolute; /* Positionne le nav par rapport à son conteneur relatif le plus proche */
+    top: 100%; /* Positionne le nav juste en dessous du bouton */
+    left: 0; /* Aligne le nav à gauche */
+    background-color: var(--couleur-dominante);
+    
 }
 
 
+.menu__item {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 12px 0;
+}
+
+.menu__link {   
+    color: var(--blanc);
+    font-family: var(--font-titre);
+    font-size: 18px;
+    text-decoration: none;
+    
+
+    
+}
 

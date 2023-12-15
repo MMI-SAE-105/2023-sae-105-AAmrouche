@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,17 +11,25 @@
 
 <body>
     <header class="header">
-    
-        <img class="header__svggauche"src="public/icon/Rond Gauche.svg" alt="décoration rond gauche">
+
         
+        
+    
+     
         <a class="header__title" href="/1-homepage.html">
            <h1>NiemeyerLegacy</h1>
         </a>
    
-        <button class="header__menu" aria-controls="mainNav" >
+        <button aria-controls="mainNav"  
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header__menuBtn"  aria-controls="mainNav">
             <img src="public/icon/menu.svg"   alt="Menu hamburger">
         </button>
-        <nav class="header__nav" id="mainNav">
+   
+        <nav  id="mainNav" 
+        x-show="menuIsOpen" 
+        x-transition.duration.800ms
+         class="header__nav" id="mainNav">
                <ul>
                    <li class="menu__item" ><a class="menu__link" href="/2-Oscar.html">Oscar Niemeyer</a></li>
                    <li class="menu__item" ><a class="menu__link" href="/3-palais-planalto.html">Palais de Planalto</a></li>
@@ -34,9 +42,9 @@
                    <li class="menu__item"><a class="menu__link" href="/10-siege-nation-unies.html">Siège des Nations Unies</a></li>
                    <li class="menu__item"><a class="menu__link" href="/11-a propos.html">À propos</a></li>
                </ul>
-               <img class="header__svgdroite"src="public/icon/Rond Droite.svg" alt="décoration rond droite">
+               
         </nav>
-        <img class="header__svgdroite"src="public/icon/Rond Droite.svg" alt="décoration rond droite">
+        
    
    
        </header>

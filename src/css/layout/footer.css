@@ -8,18 +8,42 @@
     
 }
 
+.Footer_titre{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: var(--font-titre);
+    color: var(--blanc);
+    text-align: center;
+    list-style-type: none; /* Retire les points de la liste */
+}
+
+.footer_titre_un {
+    text-decoration: none;
+    font-family: var(--font-titre);
+    color: var(--blanc);
+}
+
 .Footer_lien
 { display: block;
 justify-content: right;
 text-decoration: none;
-    
+
+list-style-type: none; /* Retire les points de la liste */
 }
 
 .Footer_list {
+    display: flex;
+    justify-content: flex;
     text-decoration: none;
-    margin-left: 110px;
-    
-    list-style-type: none; /* Retire les points de la liste */
+    list-style-type: none;
+}
+.footer__social {
+    justify-content: space-between;
+    margin: 2px;;
 }
 
 .footer__nom {
@@ -27,4 +51,30 @@ text-decoration: none;
     padding-bottom: 30px;
     font-size: var(titre-2);
     font-family: var(--font-titre);
+}
+.Footer__nommage
+{
+    text-decoration: none;
+    font-size: var(titre-2);
+    font-family: var(--font-titre);
+    color: var(--blanc);
+}
+
+.Footer_mentions {
+    text-decoration: none;
+    font-size: var(titre-2);
+    font-family: var(--font-titre);
+    color: var(--blanc);
+    padding-bottom: 30px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.footer_mention_titre {
+    text-decoration: none;
+    font-size: var(titre-2);
+    font-family: var(--font-titre);
+    color: var(--blanc);
+    list-style-type: none;
+    justify-content: center;
 }

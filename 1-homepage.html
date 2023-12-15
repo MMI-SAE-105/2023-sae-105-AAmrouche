@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,16 +14,25 @@
 
 
     <header class="header">
+
+        
+        
     
      
      <a class="header__title" href="/1-homepage.html">
         <h1>NiemeyerLegacy</h1>
      </a>
 
-     <button class="header__menu" aria-controls="mainNav">
+     <button aria-controls="mainNav"  
+     @click="menuIsOpen = ! menuIsOpen"
+     class="header__menuBtn"  aria-controls="mainNav">
          <img src="public/icon/menu.svg"   alt="Menu hamburger">
      </button>
-     <nav class="header__nav" id="mainNav">
+
+     <nav  id="mainNav" 
+     x-show="menuIsOpen" 
+     x-transition.duration.800ms
+      class="header__nav" id="mainNav">
             <ul>
                 <li class="menu__item" ><a class="menu__link" href="/2-Oscar.html">Oscar Niemeyer</a></li>
                 <li class="menu__item" ><a class="menu__link" href="/3-palais-planalto.html">Palais de Planalto</a></li>
