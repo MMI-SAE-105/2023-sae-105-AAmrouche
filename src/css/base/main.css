@@ -29,5 +29,8 @@
 }
 
 .section__p{
-    
+
+    font-family: var(--font-texte);
+    font-size: var(--corps-du-texte);
+
 }
