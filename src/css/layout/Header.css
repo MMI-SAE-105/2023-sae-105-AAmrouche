@@ -1,0 +1,38 @@
+
+
+
+.header { /* L'en-tête prendra toute la largeur de l'écran */
+    max-width: 500px; /* Mais ne dépassera jamais 500px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: var(--couleur-dominante);
+    margin: 0 auto; /* Centrer l'en-tête horizontalement */
+    height: 160px;
+}
+
+.header__title {
+
+    font-family: var(--font-titre);
+    font-size: var(--titre-2);
+    text-decoration: none;
+}
+
+.header__svggauche {
+
+    background-position: fixed;
+}
+
+.header__svgdroite {
+
+    background-position: fixed;
+}
+
+.header__menu {
+    background-color: --couleur-dominante;
+}
+

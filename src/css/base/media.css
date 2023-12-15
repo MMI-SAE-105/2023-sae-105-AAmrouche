@@ -1,0 +1,4 @@
+.Main__image{
+    width: 100%; /* L'image prendra toute la largeur de l'écran */
+    height: auto;
+}

@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&family=Raleway:ital@0;1&family=Ubuntu&display=swap');
 
-@import url(base/main.css);
-@import url(base/media.css);    
+@import "base/main.css";
+@import "base/media.css";    
 
-@import url(vendors/normalise.css);
+@import "vendors/normalise.css";
 
-@import url(utils/variables.css);
+@import "utils/variables.css";
 
 
-@import url(layout/header.css);
-@import url(layout/footer.css);
-@import url(layout/forms.css);
-@import url(layout/section.css);
+@import "layout/header.css";
+@import "layout/footer.css";
+@import "layout/forms.css";
+@import "layout/section.css";
 
-@import url(components/button.Css);
-@import url(components/card.css);
-@import url(components/carousel.css);
-@import url(components/menu.css);
+@import "components/button.Css";
+@import "components/card.css";
+@import "components/carousel.css";
+@import "components/menu.css";
 
