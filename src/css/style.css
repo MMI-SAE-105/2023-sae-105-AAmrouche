@@ -7,3 +7,15 @@
 @import url(vendors/normalise.css);
 
 @import url(utils/variables.css);
+
+
+@import url(layout/header.css);
+@import url(layout/footer.css);
+@import url(layout/forms.css);
+@import url(layout/section.css);
+
+@import url(components/button.Css);
+@import url(components/card.css);
+@import url(components/carousel.css);
+@import url(components/menu.css);
+
